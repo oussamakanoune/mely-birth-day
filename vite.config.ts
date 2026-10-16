@@ -8,5 +8,6 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-  base: './', // Ensure relative paths for GitHub Pages static hosting
+  // Exact repository base path for GitHub Pages deployment
+  base: '/mely-birth-day/',
 })
